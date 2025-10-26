@@ -38,6 +38,16 @@ h1 {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.cafe-photo {
+  width: 60%;       /* 横幅を画面の60%に */
+  max-width: 500px; /* 500pxを超えないようにする */
+  height: auto;     /* 縦横比を維持 */
+  border-radius: 10px; /* 角を丸くする（おしゃれポイント） */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* 軽い影で立体感 */
+  margin-top: 10px;
+}
+
+
 .intro img {
   width: 80%;
   border-radius: 10px;
